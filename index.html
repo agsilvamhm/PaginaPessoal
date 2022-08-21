@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página pessoal - Adalberto Gonçalves</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!--**  Principal vídeo para formação do menu**-->
+    <!--https://www.youtube.com/watch?v=IKCAnqcZC4c-->
     <header>
         <nav id="menu">
+            <div class="logo">Logo</div>
+            <div class="menu-btn" onclick="menuShow()">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Plataforma</a></li>
-                <li><a href="">Sobre</a></li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Plataforma</a></li>
+                <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -25,5 +32,6 @@
             <li>JavaScript</li>
         </ul>
     </footer>
+    <script src="script/index.js"></script>
 </body>
 </html>
